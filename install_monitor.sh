@@ -48,4 +48,3 @@ sudo systemctl start $SERVICE_NAME
 
 echo "--- Installation Complete! ---"
 echo "Logs will be written to: $LOG_PATH"
-

@@ -30,4 +30,3 @@ else
 fi
 
 echo "--- Uninstallation Complete ---"
-
