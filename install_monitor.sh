@@ -21,6 +21,7 @@ fi
 # 2. Move binary to system path
 echo "Moving binary to $INSTALL_PATH..."
 sudo mv $BINARY_NAME $INSTALL_PATH
+sudo restorecon -v $INSTALL_PATH
 
 # 3. Create the systemd service file
 echo "Creating systemd service..."
