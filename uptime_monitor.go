@@ -10,7 +10,7 @@ import (
 const (
 	logFile       = "internet_outages.log"
 	checkInterval = 1 * time.Second
-	threshold     = 5            // Number of failed attempts before declaring failure to avoid jitter
+	threshold     = 3            // Number of failed attempts before declaring failure to avoid jitter
 	targetAddr    = "8.8.8.8:53" // Google DNS
 	altAddr       = "1.1.1.1:53" // Cloudflare DNS
 	timeout       = 1 * time.Second
